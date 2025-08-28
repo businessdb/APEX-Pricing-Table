@@ -1,0 +1,35 @@
+{
+    "name": "APEX Pricing Table",
+    "version": "1.0",
+    "description": "Region plug-in that allows to render a pricing table in APEX.",
+    "keywords": ["oracle", "apex", "plugin", "region", "table"],
+    "homepage": "https://github.com/businessdb/APEX-Pricing-Table",
+    "bugs": {
+        "url": "https://github.com/businessdb/APEX-Pricing-Table",
+        "email": "office@business-db.com"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "commercially_supported": "Yes",
+    "author": {
+        "name": "Business DB",
+        "email" : "office@business-db.com",
+        "url" : "https://business-db.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/businessdb/APEX-Pricing-Table.git"
+    },
+    "oracle": {
+        "versions": ["18c", "19c", "21c", "23c", "23ai"],
+        "apex": {
+            "versions": ["21.1", "21.2", "22.1", "22.2", "23.1", "23.2", "24.1", "24.2"],
+            "plugin": {
+                "internalName": "BUSINESS.DB.APEX.AUTO.COMPLETE",
+                "type": "region",
+                "demo": "https://my.business-db.com/ords/r/apps/plugin",
+                "previewImage": "https://github.com/businessdb/APEX-Pricing-Table/blob/main/screenshot.png?raw=true"
+            }
+        }
+    }
+}
