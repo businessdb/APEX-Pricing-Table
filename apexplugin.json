@@ -27,9 +27,10 @@
             "plugin": {
                 "internalName": "BUSINESS.DB.APEX.PRICING.TABLE",
                 "type": "region",
-                "demo": "https://my.business-db.com/ords/r/apps/plugin",
+                "demo": "https://business-db.com/gratis-oracle-apex-pricing-table-plugin",
                 "previewImage": "https://github.com/businessdb/APEX-Pricing-Table/blob/main/screenshot.png?raw=true"
             }
         }
     }
 }
+
